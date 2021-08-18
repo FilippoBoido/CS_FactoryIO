@@ -32,15 +32,6 @@ namespace Factory
         public MemoryDateTime[] MemoriesDateTime { get; set; }
         public MemoryTimeSpan[] MemoriesTimeSpan { get; set; }
     }
-    public static class TestEvent
-    {
-        public static void RegisterEvent(Action<int, int> callback)
-        {
-            Console.WriteLine("Executing callback:");
-            callback(10,10);
-        }
-
-    }
 
     public static class InputsNameChanged
     {
