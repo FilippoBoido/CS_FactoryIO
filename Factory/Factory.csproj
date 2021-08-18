@@ -47,5 +47,11 @@
     <Compile Include="Factory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="dlls\Engine IO.dll" />
+    <Content Include="dlls\Factory.dll" />
+    <Content Include="dlls\Factory.pdb" />
+    <Content Include="dlls\System.Runtime.CompilerServices.Unsafe.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
